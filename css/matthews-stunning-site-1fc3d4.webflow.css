@@ -1,6 +1,7 @@
 .container {
   width: 80%;
   height: auto;
+  max-height: none;
   border-radius: 0;
   flex-direction: column;
   justify-content: space-between;
@@ -11,6 +12,7 @@
   bottom: 0%;
   left: auto;
   right: 0%;
+  overflow: visible;
 }
 
 .sidebar {
@@ -35,6 +37,7 @@
   justify-content: flex-end;
   display: flex;
   position: static;
+  overflow: visible;
 }
 
 .user-comment {
@@ -205,7 +208,7 @@
 }
 
 .topic-btn {
-  width: 16%;
+  width: 15%;
   color: #fff;
   text-align: center;
   background-color: #3e4eff;
@@ -237,7 +240,7 @@
   height: 15%;
   justify-content: flex-start;
   align-items: center;
-  padding: 10px 20px 1.5rem;
+  padding: 10px 20px 1rem;
   display: flex;
   position: static;
 }
@@ -291,6 +294,7 @@
 }
 
 .user-stuff {
+  height: auto;
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -449,6 +453,7 @@
 @media screen and (max-width: 991px) {
   .container {
     width: auto;
+    height: auto;
     justify-content: space-between;
   }
 
