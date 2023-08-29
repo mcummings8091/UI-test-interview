@@ -359,6 +359,11 @@
   font-family: "Fa 400", sans-serif;
 }
 
+.fa-icon.googlr {
+  border: 1px solid #afadad;
+  border-radius: 8px;
+}
+
 .fa {
   border: 1px solid #afadad;
   border-radius: 8px;
