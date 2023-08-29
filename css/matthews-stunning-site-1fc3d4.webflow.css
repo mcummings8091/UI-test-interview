@@ -5,14 +5,16 @@
   border-radius: 0;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: -20px;
   margin-left: auto;
+  padding-bottom: 20px;
   display: flex;
   position: fixed;
   top: 0%;
   bottom: 0%;
   left: auto;
   right: 0%;
-  overflow: visible;
+  overflow: scroll;
 }
 
 .sidebar {
@@ -455,6 +457,7 @@
     width: auto;
     height: auto;
     justify-content: space-between;
+    margin-bottom: -20px;
   }
 
   .chat-container {
